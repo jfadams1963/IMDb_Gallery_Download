@@ -7,7 +7,7 @@
  
  June 2024 by https://github.com/jfadams1963:  
  + Made changes to reflect the new structure on IMDb.  
- + Added Cinemagoer functionality to specify movie|person by title|name.  
+ + Cinemagoer functionality to specify movie|person by title|name.  
  + Using SoupStrainer for more efficient html parsing.  
  + Usage:  
      imdbgallery.py movie <title|movieID>  
