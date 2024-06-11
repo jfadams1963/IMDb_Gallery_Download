@@ -1,8 +1,8 @@
 # IMDb Gallery Download Tool
  
  This is a modified version of https://github.com/IvRogoz.  
- Much of this code is due th work of IvRogoz and I and anyone  
- who uses and enjoys this it owes IvRogoz a big thanks.  
+ Much of this code is due the work of IvRogoz and I, and anyone  
+ who uses and enjoys it, owes IvRogoz a big thanks.  
  
  June 2024 by https://github.com/jfadams1963:  
  + Made changes to reflect the new structure on IMDb.  
