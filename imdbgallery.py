@@ -181,7 +181,7 @@ i = 0 # For indexing individual images -jfadams1963
 url = base_url
 
 print()
-print("Scrapping from:", url)
+print("Scraping from:", url)
 
 # use requests.get().content with random user-agent -jfadams1963
 with open('user_agents.txt', encoding='utf8') as f:
@@ -279,7 +279,7 @@ for index, link in enumerate(links):
         saved = os.path.isfile(file_name)
         if saved:
             print(">>>> ",saved)
-            print('Image sucessfully Downloaded: ',file_name)
+            print('Image successfully Downloaded: ',file_name)
         else:
             print("Image Couldn't be retrieved")
 
