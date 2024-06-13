@@ -60,9 +60,7 @@ from imdb import (Cinemagoer,
 
 arg1 = sys.argv[1]
 arg2 = sys.argv[2]
-image_num_limit = int(10)
 is_person = 0
-
 mediaview_url = "https://www.imdb.com/"
 
 #### Cineamagoer section to get movieID or personID -jfadams1963
