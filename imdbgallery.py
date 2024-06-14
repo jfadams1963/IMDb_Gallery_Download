@@ -68,13 +68,12 @@ mediaview_url = "https://www.imdb.com/"
 # Instantiate a Cinemagoer object
 # Get a movies|persons object
 
-# Strip input of punctuation, set to lower case
+# Strip input of punctuation, set arg1 to lower case
 # IMDb queries are case insensitive
-bad = r'['+string.punctuation+']'
-arg1 = re.sub(bad,'',sys.argv[1]).lower()
-arg2 = re.sub(bad,'',sys.argv[2])
+arg1 = ''.join([c for c in arg1.lower() if c not in string.punctuation])
+arg2 = ''.join([c for c in arg2 if c not in string.punctuation])
 
-# Use ID is initially false
+#Use ID is initially false
 use_id = 0
 # Use person is initially false
 person_id = 0
